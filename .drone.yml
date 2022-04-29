@@ -1,0 +1,8 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: write
+    image: al_1
+    commands:
+      - echo -n "this-is-a-test" > .tags
